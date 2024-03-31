@@ -3,7 +3,7 @@
 # Variables
 cluster_name="cluster-1-test" # If you wanna change the cluster name make sure you change it in the terraform directory variables.tf (name_prefix & environment)
 region="us-east-1"
-aws_id="975050229531"
+aws_id="073979272724"
 repo_name="goapp-survey" # If you wanna change the repository name make sure you change it in the k8s/app.yml (Image name) 
 image_name="$aws_id.dkr.ecr.$region.amazonaws.com/$repo_name:latest"
 domain="localhost.local"
